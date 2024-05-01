@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th>Field Account_No</th>
+        ...
+        <th>Field Balance</th>
+    </tr>
+    {% for item in res %}
+    <tr>
+        <td>{{ item.Account_No}}</td>
+        ...
+        <td>{{ item.Balance }}</td>
+    </tr>
+    {% endfor %}
+</table>
